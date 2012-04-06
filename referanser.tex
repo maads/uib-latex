@@ -1,0 +1,27 @@
+\documentclass[12pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\renewcommand{\maketitle}{}
+\renewcommand{\contentsname}{}
+\title{\documentstyle{amsart}}
+
+\begin{document}
+
+\maketitle
+
+\vspace*{1cm}
+
+\begin{document}
+% Lister opp alle referansene (refererer til alle, uten å sette dem inn i teksten).
+\nocite{*}
+% Flytter overskriften litt opp - for det estetiske sin del.
+\vspace{-20mm}
+
+\bibliographystyle{amsplain}
+
+% Putt inn navnet på .bib-filen
+\bibliography{litteratur}
+\end{document}
+
+\end{document}
